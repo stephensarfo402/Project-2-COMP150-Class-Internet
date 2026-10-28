@@ -1,0 +1,16 @@
+
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
