@@ -2,70 +2,54 @@
 /* Overall Website */
 
 body {
-    background-color: #F5F5F2;
-    color: #182838;
+    background-color: #EEEEEE;
+    color: #5A0722;
     font-family: Arial, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 25px;
 }
 
-/* Header */
+/* Website Header */
 
 .header {
-    background-color: #182838;
+    background-color: #5A0722;
     color: white;
     text-align: center;
-    padding: 65px 20px;
+    padding: 45px 20px;
 }
 
 .small-title {
-    color: #C3D2DF;
+    color: #EAAA00;
     font-size: 14px;
     letter-spacing: 3px;
+    margin: 0;
 }
 
 h1 {
-    font-size: 55px;
-    margin: 20px 0;
-}
-
-.subtitle {
-    font-size: 17px;
-    color: #E4E9EC;
-}
-
-/* Introduction */
-
-.introduction {
-    max-width: 750px;
-    margin: 55px auto;
-    text-align: center;
-}
-
-h2 {
-    font-size: 32px;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 48px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.introduction p {
-    font-size: 17px;
-    line-height: 1.7;
+/* Gold Accent */
+
+.gold-line {
+    border: none;
+    background-color: #EAAA00;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
 }
 
-/* Team Heading */
-
-.team-heading {
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 30px;
-}
-
-/* Team Gallery */
+/* Team Profiles */
 
 .team-gallery {
     text-align: center;
-    margin-bottom: 55px;
+    margin-top: 45px;
+    margin-bottom: 35px;
 }
 
 /* Individual Member */
@@ -73,48 +57,50 @@ h2 {
 .member {
     display: inline-block;
     background-color: white;
-    width: 28%;
+    width: 29%;
     padding: 15px;
     margin: 1%;
     vertical-align: top;
     box-sizing: border-box;
-    min-height: 440px;
 }
 
 .member img {
     width: 100%;
     height: 230px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
-.member h3 {
+.member h2 {
+    color: #5A0722;
+    font-family: Georgia, serif;
     font-size: 22px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.member p {
-    font-size: 15px;
-    line-height: 1.6;
-}
-
-/* Website Links */
+/* Personal Website Links */
 
 .member a {
-    color: #182838;
+    color: #5A0722;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .member a:hover {
-    color: #557B98;
+    color: #9B6640;
 }
 
 /* Footer */
 
 .footer {
-    background-color: #182838;
-    color: white;
+    border-top: 1px solid #CCCCCC;
+    color: #666666;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 35px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
 }
